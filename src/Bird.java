@@ -16,4 +16,6 @@ public abstract class Bird extends Animal{
 
     public void show(Bird bird){
     };
+
+    public abstract void runAway();
 }

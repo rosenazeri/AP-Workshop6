@@ -6,5 +6,10 @@ public class Eagle extends Bird{
     public void show() {
         System.out.println("Name: " +  getName() + ", Age: " + getAge() + ", Heigh Of Fly: " +  getHeightOfFly() + ", Special Point: " +  getSpecialPoint());
     }
+    @Override
+    public void runAway() {
+
+    }
+
 }
 

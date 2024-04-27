@@ -15,4 +15,6 @@ public abstract class Mammel extends Animal{
     public void show() {
 
     }
+    public void hunt() {
+    }
 }

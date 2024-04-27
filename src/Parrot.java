@@ -1,4 +1,4 @@
-public class Parrot extends Bird{
+public class Parrot extends Bird implements Prey{
     public Parrot(String name, String age, String heightOfFly, String specialPoint) {
         super(name, age, heightOfFly, specialPoint);
     }
@@ -6,5 +6,9 @@ public class Parrot extends Bird{
     @Override
     public void show() {
         System.out.println("Name: " +  getName() + ", Age: " + getAge() + ", Heigh Of Fly: " +  getHeightOfFly() + ", Special Point: " +  getSpecialPoint());
+    }
+    @Override
+    public void runAway() {
+        System.out.println(getName() +" is running away");
     }
 }
