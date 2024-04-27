@@ -1,7 +1,8 @@
 public class Mammel extends Animal{
     private String speed ;
-    public Mammel(String name, String age, String speed) {
-        super(name, age);
+
+    public Mammel(String name, String age,String speed , String specialPoint) {
+        super(name, age, specialPoint);
         this.speed = speed;
     }
     public String getSpeed() {
@@ -10,4 +11,6 @@ public class Mammel extends Animal{
     public void setSpeed(String speed) {
         this.speed = speed;
     }
+
+
 }
