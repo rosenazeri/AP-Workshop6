@@ -1,4 +1,4 @@
-public class Mammel extends Animal{
+public abstract class Mammel extends Animal{
     private String speed ;
 
     public Mammel(String name, String age,String speed , String specialPoint) {
@@ -12,5 +12,7 @@ public class Mammel extends Animal{
         this.speed = speed;
     }
 
+    public void show() {
 
+    }
 }

@@ -1,4 +1,4 @@
-public class Animal{
+public abstract class Animal{
        private String name ;
        private String age ;
        private String specialPoint ;
@@ -32,4 +32,5 @@ public class Animal{
     public void setSpecialPoint(String specialPoint) {
         this.specialPoint = specialPoint;
     }
+    public abstract void show() ;
 }
